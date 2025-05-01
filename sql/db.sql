@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS citysave;
+USE citysave;
+
+CREATE TABLE buscas (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  cidade_origem VARCHAR(100),
+  cidade_destino VARCHAR(100),
+  data_busca DATETIME DEFAULT CURRENT_TIMESTAMP
+);
