@@ -107,3 +107,4 @@ function renderizaResumo(dados) {
   `;
   document.body.appendChild(resumo);
 }
+
