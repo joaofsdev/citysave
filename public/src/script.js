@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const cidadeAInput = inputs[0];
   const cidadeBInput = inputs[1];
 
-  // Autocompletar com cidades do IBGE
   fetch('https://servicodados.ibge.gov.br/api/v1/localidades/municipios')
     .then(res => res.json())
     .then(data => {
@@ -22,7 +21,6 @@ document.addEventListener('DOMContentLoaded', () => {
       document.body.appendChild(datalist);
     });
 
-  // Evento de clique para comparar cidades
   btn.addEventListener('click', async () => {
     const cidadeA = cidadeAInput.value;
     const cidadeB = cidadeBInput.value;
