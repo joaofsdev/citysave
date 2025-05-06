@@ -44,7 +44,7 @@ A comparação é apresentada visualmente por meio de gráficos de barras e resu
 1. **Clone o repositório:**
 
 ```bash
-git clone https://github.com/seu-usuario/citysave.git
+git clone https://github.com/joaofsdev/citysave.git
 cd citysave
 ```
 
